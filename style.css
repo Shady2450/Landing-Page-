@@ -1,0 +1,133 @@
+body {
+    color: White;
+    margin: 5px;
+    padding: 5px;
+    background: url(img/affordable-phones-assembled.webp);
+    background-repeat: repeat-y;
+    background-size: 1500px 1200px;
+    height: 1200px;
+}
+
+.left {
+    text-align: center;
+    display: inline-block;
+    /* border: 2px solid red; */
+    margin: 5px;
+    position: absolute;
+    left: 50px;
+    top: 31px;
+    width: 98px;
+    cursor: pointer;
+}
+
+#Symbol {
+    display: inline-block;
+    text-align: center;
+    width: 48px;
+    background-color: rgb(0, 0, 0);
+}
+
+#symbol name {
+    text-align: center;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    display: inline-block;
+}
+
+.mid {
+    /* display: block; */
+    border: 3px solid rgb(0, 0, 0);
+    /* margin: 31px auto; */
+    /* width: 45%; */
+    display: block;
+    /* border: 2px solid #f5f5f2; */
+    border-radius: 45px;
+    background-color: rgba(0, 0, 0, 0.123);
+    margin: 31px auto;
+    width: 50%;
+    cursor: pointer;
+}
+
+
+.right {
+    display: block;
+    /* border: 2px solid green; */
+    border-radius: 45px;
+    margin: 5px;
+    position: absolute;
+    right: 34px;
+    top: 40px;
+}
+
+.right input {
+    font-size: 16px;
+    border-radius: 45px;
+    text-align: left;
+    padding-left: 12px;
+    background-color: #ffffff;
+    cursor: pointer;
+}
+
+.navbar {
+    display: inline-block;
+
+}
+
+.navbar li {
+    display: inline-block;
+    font-size: 25px;
+
+}
+
+.navbar li a {
+    color: white;
+    text-decoration: none;
+    padding: 34px 25px;
+
+}
+
+.navbar li a:hover,
+.navbar li a.active {
+    text-decoration: underline;
+    color: rgb(255, 139, 139);
+    cursor: pointer;
+}
+
+
+.container {
+    border: 2px solid white;
+    margin: 100px 80px;
+    padding: 76px;
+    width: 33%;
+    border-radius: 28px;
+    text-decoration: double;
+
+}
+
+.form-group input {
+    text-align: center;
+    display: block;
+    width: 456px;
+    padding: 3px;
+    border: 2px solid rgb(0, 0, 0);
+    margin: 15px auto;
+    font-size: 25px;
+    border-radius: 8px;
+
+}
+
+#Form-title {
+    text-size-adjust: 25px;
+}
+
+.btn {
+    border-radius: 22px;
+    padding: 12px 44px;
+    margin: 60px 310px;
+
+}
+.form-group btn :hover{
+    text-transform: capitalize;
+    color: bisque;
+    cursor: pointer;
+}
+
